@@ -1,0 +1,19 @@
+{
+  "name": "prism",
+  "version": "1.0.0",
+  "description": "Manages premium subscriptions for Ear Tensifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EarTensifier/Prism.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EarTensifier/Prism/issues"
+  },
+  "homepage": "https://github.com/EarTensifier/Prism#readme"
+}
