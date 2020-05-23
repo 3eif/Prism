@@ -7,15 +7,10 @@ module.exports = class Client extends Discord.Client {
             messageCacheMaxSize: 50,
             messageCacheLifetime: 60,
             messageSweepInterval: 120,
-            partials: [
-                'MESSAGE',
-                'CHANNEL',
-            ],
+            partials: [],
             ws: {
                 intents: [
-                    'GUILDS',
-                    'GUILD_MESSAGES',
-                    'GUILD_VOICE_STATES',
+                    'GUILD_MEMBERS',
                 ],
             },
         });
