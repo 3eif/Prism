@@ -23,7 +23,6 @@ module.exports = class Client extends Discord.Client {
         this.settings = require('../../config/settings.js');
         this.colors = require('../../config/colors.js');
         this.channelList = require('../../config/channels.js');
-        this.emojiList = require('../../config/emojis.js');
 
         this.shardMessage = require('./../utils/shardMessage.js');
 
