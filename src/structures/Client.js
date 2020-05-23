@@ -7,12 +7,6 @@ module.exports = class Client extends Discord.Client {
             messageCacheMaxSize: 50,
             messageCacheLifetime: 60,
             messageSweepInterval: 120,
-            partials: [],
-            ws: {
-                intents: [
-                    'GUILD_MEMBERS',
-                ],
-            },
         });
 
         this.settings = require('../../config/settings.js');
