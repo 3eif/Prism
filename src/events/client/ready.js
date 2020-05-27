@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 const Event = require('../../structures/Event');
 
-mongoose.connect(`mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/test`, {
+mongoose.connect(process.env.MONGO_URL, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });

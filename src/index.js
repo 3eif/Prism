@@ -11,7 +11,7 @@ const manager = new ShardingManager('./src/main.js', {
   timeout: 999999,
 });
 
-mongoose.connect(`mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/test`, {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
